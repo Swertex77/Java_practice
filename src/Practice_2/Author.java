@@ -30,7 +30,7 @@ public class Author {
 
     @Override
     public String toString() {
-        return name + " " + gender + " " + "at" + " " + email;
+        return name + " " + "(" + gender + ")"  + " " + "at" + " " + email;
     }
 }
  class TestAuthor {
