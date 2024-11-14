@@ -1,5 +1,7 @@
 package Practice_10;
 
+import Practice_11.Rectangle;
+
 public class ComparableRectangle extends Rectangle {
 
     public ComparableRectangle(double width, double height) {

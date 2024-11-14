@@ -1,5 +1,7 @@
 package Practice_10;
 
+import Practice_11.Rectangle;
+
 public class TestComparableCircle {
     public static void main(String[] args) {
         // Создаем два экземпляра ComparableCircle

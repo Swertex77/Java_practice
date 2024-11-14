@@ -1,5 +1,7 @@
 package Practice_10;
 
+import Practice_11.Circle;
+
 public class ComparableCircle extends Circle {
 
     public ComparableCircle(double radius) {

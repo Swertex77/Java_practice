@@ -1,5 +1,8 @@
 package Practice_10;
 
+import Practice_11.Circle;
+import Practice_11.Rectangle;
+
 public class TestGeometricObject_ex1 {
     public static void main(String[] args) {
         // Создаем два круга для сравнения
