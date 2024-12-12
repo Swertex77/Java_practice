@@ -154,4 +154,3 @@ public class CalculatorWithMenuAndCountryInfo extends JFrame {
         new CalculatorWithMenuAndCountryInfo();
     }
 }
-

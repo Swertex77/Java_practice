@@ -1,5 +1,7 @@
 package Practice_10;
 
+import Practice_15.Circle;
+
 public abstract class GeometricObject implements Comparable<GeometricObject> {
     private String color = "белый";
     private boolean filled;
@@ -52,4 +54,6 @@ public abstract class GeometricObject implements Comparable<GeometricObject> {
     public static GeometricObject max(GeometricObject o1, GeometricObject o2) {
         return (o1.compareTo(o2) >= 0) ? o1 : o2;
     }
+
+    public abstract int compareTo(Circle other);
 }

@@ -2,6 +2,7 @@ package Practice_11;
 
 import Practice_10.Comparable;
 import Practice_10.GeometricObject;
+import Practice_15.Circle;
 
 public class Rectangle extends GeometricObject implements Comparable<GeometricObject> {
     private double width;
@@ -65,5 +66,10 @@ public class Rectangle extends GeometricObject implements Comparable<GeometricOb
     @Override
     public int compareTo(GeometricObject o) {
         return Double.compare(this.getArea(), o.getArea());
+    }
+
+    @Override
+    public int compareTo(Circle other) {
+        return 0;
     }
 }

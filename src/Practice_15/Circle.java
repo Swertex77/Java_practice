@@ -1,4 +1,6 @@
-package Practice_10;
+package Practice_15;
+
+import Practice_10.GeometricObject;
 
 public class Circle extends GeometricObject {
     private double radius;
@@ -37,5 +39,10 @@ public class Circle extends GeometricObject {
     @Override
     public String toString() {
         return "Круг с радиусом " + radius + ", площадью " + getArea() + " и периметром " + getPerimeter();
+    }
+
+    @Override
+    public int compareTo(Circle other) {
+        return Double.compare(this.radius, other.radius);
     }
 }

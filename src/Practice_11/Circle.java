@@ -21,6 +21,11 @@ public class Circle extends GeometricObject {
     }
 
     @Override
+    public int compareTo(Practice_15.Circle other) {
+        return 0;
+    }
+
+    @Override
     public boolean equals(Object obj) {
         if (obj instanceof Circle) {
             Circle other = (Circle) obj;

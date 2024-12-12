@@ -1,5 +1,7 @@
 package Practice_10;
 
+import Practice_15.Circle;
+
 public class Square extends GeometricObject implements Colorable {
     private double side;
 
@@ -27,6 +29,11 @@ public class Square extends GeometricObject implements Colorable {
     @Override
     public double getPerimeter() {
         return 4 * side;
+    }
+
+    @Override
+    public int compareTo(Circle other) {
+        return 0;
     }
 
     @Override

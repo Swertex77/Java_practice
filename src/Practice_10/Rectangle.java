@@ -1,5 +1,7 @@
 package Practice_10;
 
+import Practice_15.Circle;
+
 public class Rectangle extends GeometricObject {
     private double width;
     private double height;
@@ -43,5 +45,10 @@ public class Rectangle extends GeometricObject {
     @Override
     public double getPerimeter() {
         return 2 * (width + height);
+    }
+
+    @Override
+    public int compareTo(Circle other) {
+        return 0;
     }
 }

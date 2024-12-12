@@ -1,5 +1,7 @@
 package Practice_10;
 
+import Practice_15.Circle;
+
 public class TestGeometricObject {
     public static void main(String[] args) {
         // Объявить и инициализировать два геометрические фигуры
